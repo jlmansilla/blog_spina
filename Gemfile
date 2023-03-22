@@ -8,6 +8,8 @@ gem 'spina', '~> 2.2'
 
 gem 'aws-sdk-s3'
 
+gem 'tailwindcss-rails'
+gem 'foreman'
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.4", ">= 7.0.4.2"
@@ -76,3 +78,5 @@ group :test do
   gem "selenium-webdriver"
   gem "webdrivers"
 end
+
+
